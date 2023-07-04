@@ -45,15 +45,7 @@ function App(props) {
       <Route path="/app" element={<Appp />} />
       <Route path="/dashboard" element={<Dashboard />} />
 
-    
-
-    
-         {/* Protected Routes */}
-        <Route element={<RequireAuth />}>
-          {/* <Route path="/dashboard" element={<Dashboard />} /> */}
-          <Route path="/sidebars" element={<Sidebars/>} />
-          
-          <Route path="/share_holding_pattern" element={<Shareholding />} />
+      <Route path="/share_holding_pattern" element={<Shareholding />} />
           <Route path="/assignment/add" element={<AddAssignment />} />
           <Route path="/assignment/edit/:id" element={<AddAssignment />} />
 
@@ -78,6 +70,15 @@ function App(props) {
 
           <Route path="/credit_history" element={<CreditHistory/>} />
 
+
+    
+         {/* Protected Routes */}
+        <Route element={<RequireAuth />}>
+          {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+          <Route path="/sidebars" element={<Sidebars/>} />
+          
+          
+          
 
 
 
