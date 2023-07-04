@@ -1,9 +1,6 @@
 import React from "react";
 
-<<<<<<< HEAD
-=======
 import Navbar from "../Navbar";
->>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
 import Card from "react-bootstrap/Card";
 import {
     BsChevronDown,
@@ -15,11 +12,7 @@ import Badge from "react-bootstrap/Badge";
 
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
-const Decisions = () => {
+const Users = () => {
   
 
 
@@ -43,7 +36,7 @@ const Decisions = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Decisions
+                      Users 
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -53,22 +46,14 @@ const Decisions = () => {
                        
                       </Badge>{" "}
                     </p>
-<<<<<<< HEAD
-                    <span> Comming Soon </span>
-                  </div>
-                </Card.Body>
-              </Card>
-            </div>     </div> 
-=======
-                    <span> coming Soon  </span>
+                    <span>coming Soon </span>
                   </div>
                 </Card.Body>
               </Card>
             </div>      </div> 
->>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
              </div>
       </section>
   );
 };
 
-export default Decisions;
+export default Users;

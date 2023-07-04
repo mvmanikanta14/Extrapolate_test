@@ -1,5 +1,9 @@
 import React from "react";
 
+<<<<<<< HEAD
+=======
+import Navbar from "../Navbar";
+>>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
 import Card from "react-bootstrap/Card";
 import {
     BsChevronDown,
@@ -11,7 +15,10 @@ import Badge from "react-bootstrap/Badge";
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
 const Subsidies = () => {
   
 
@@ -46,11 +53,19 @@ const Subsidies = () => {
                        
                       </Badge>{" "}
                     </p>
+<<<<<<< HEAD
                     <span> Comming Soon </span>
                   </div>
                 </Card.Body>
               </Card>
             </div>     </div> 
+=======
+                    <span> Coming Soon </span>
+                  </div>
+                </Card.Body>
+              </Card>
+            </div>      </div> 
+>>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
              </div>
       </section>
   );

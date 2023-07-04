@@ -1,9 +1,5 @@
 import React from "react";
 
-<<<<<<< HEAD
-=======
-import Navbar from "../Navbar";
->>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
 import Card from "react-bootstrap/Card";
 import {
     BsChevronDown,
@@ -15,23 +11,18 @@ import Badge from "react-bootstrap/Badge";
 
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
-const Decisions = () => {
-  
 
 
-
+const Risk_types = () => {
+ 
   return (
     <section>
     
  
         <div className="container-fluid"> 
       
-       <div className="content">
-       <div className="col-md-4 col-lg-4 col-sm-12">
+        <div className="content">
+        <div className="col-md-4 col-lg-4 col-sm-12">
               <Card>
                 <Card.Body>
                   <div className="cat-icon">
@@ -43,7 +34,7 @@ const Decisions = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Decisions
+                    Risk types
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -53,22 +44,15 @@ const Decisions = () => {
                        
                       </Badge>{" "}
                     </p>
-<<<<<<< HEAD
-                    <span> Comming Soon </span>
+                    <span> coming Soon </span>
                   </div>
                 </Card.Body>
               </Card>
-            </div>     </div> 
-=======
-                    <span> coming Soon  </span>
-                  </div>
-                </Card.Body>
-              </Card>
-            </div>      </div> 
->>>>>>> 9529a45c437c2045be60ce6fcbc25bcf882d8706
-             </div>
+            </div>      
+          </div> 
+        </div>
       </section>
   );
 };
 
-export default Decisions;
+export default Risk_types;
