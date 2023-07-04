@@ -9,7 +9,7 @@ import {
     BsChevronUp,
   } from "react-icons/bs";
 import Badge from "react-bootstrap/Badge";
-
+ 
 
 
 const TermLoans = () => {
