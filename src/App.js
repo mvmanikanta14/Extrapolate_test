@@ -84,12 +84,7 @@ import MoemnetofLongtermFunds from "./pages/listing/MoemnetofLongtermFunds";
 import Cashflow from "./pages/listing/Cashflow";
 import InventoryandreceivablesLevels from "./pages/listing/InventoryandreceivablesLevels";
 import AssessedBankFinance from "./pages/listing/AssessedBankFinance";
-<<<<<<< HEAD
- import TermLoans from "./pages/listing/Termloans";
- import Header2 from "./pages/Header2";
-=======
 import TermLoans from "./pages/listing/Termloans";
->>>>>>> 697e84561ed697e25f95812ffea3b6c6c847530c
 
 import Assessmentof_CC from "./pages/listing/Assessmentof_CC";
 
@@ -460,26 +455,6 @@ function App(props) {
 
         <Route path="/yield" element={<Yield/>}/>
 
-<<<<<<< HEAD
-        <Route path="/transactional_arragments" element={<TransactionalArragments/>}/>
-        <Route path="/Capacity_and_utilisation" element={<CapacityAndUtilisation/>}/>
-        <Route path="/personal_profile" element={<PersonalProfile/>}/>
-        <Route path="/education_background" element={<EducationBackground/>}/>
-        <Route path="/work_experience" element={<WorkExperience/>}/>
-        <Route path="/credit_score" element={<CreditScore/>}/>
-        <Route path="/present_networth" element={<PresentNetworth/>}/>
-        <Route path="/income_and_tax_history" element={<IncomeAndTaxHistory/>}/>
-        <Route path="/due_deligence_and_deliquency" element={<DueDeligenceAndDeliquency/>}/>
-        <Route path="/present_positions" element={<PresentPositions/>}/>  
-        <Route path="/primary_security" element={<PrimarySecurity/>}/>
-        <Route path="/collateralsecurity" element={<CollateralSecurity/>}/>
-        <Route path="/guarantee" element={<Garuantees/>}/>
-        <Route path="/security_coverage" element={<SecurityCoverage/>}/>
-        <Route path="/asset_valuation" element={<AssetValuation/>}/>
-        <Route path="/legal_verificaiton_of_title" element={<LegalVerificaitonofTitle/>}/>
-        <Route path="/asset_profile" element={<AssetProfile/>}/>
-        <Route path="/insurance" element={<Insurance/>}/>
-=======
 <Route path="/transactional_arragments" element={<TransactionalArragments/>}/>
 <Route path="/Capacity_and_utilisation" element={<CapacityAndUtilisation/>}/>
 <Route path="/personal_profile" element={<PersonalProfile/>}/>
@@ -572,7 +547,6 @@ function App(props) {
           <Route path="/units_measurements" element={<UnitsMeasurements/>} />
 
           <Route path="/transactional_arragement_types" element={<TransactionalArragementTypes/>} />
->>>>>>> 697e84561ed697e25f95812ffea3b6c6c847530c
               
 
           <Route path="/land" element={<Land/>} />
