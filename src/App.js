@@ -79,6 +79,7 @@ import ModelSwot from "./pages/listing/ModelSwot";
 
 
 
+import Insurance from "./pages/listing/Insurance";
 
 function App(props) {
   return (
