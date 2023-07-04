@@ -198,10 +198,102 @@ import TransactionalArragementTypes from "./pages/listing/TransactionalArragemen
 import Model_VMG from "./pages/listing/Model_VMG";
 import Model_EIC from "./pages/listing/Model_EIC";
 
+import Marginmonies from "./pages/listing/Marginmonies1";
+
+import Land from "./pages/listing/Land";
+
+import Buildings from "./pages/listing/Buildings";
+
+import PlantandMachinery from "./pages/listing/PlantandMachinery";
+
+import Vehicles from "./pages/listing/Vehicles";
+
+import SoftwareandTechnicalKnowhow from "./pages/listing/SoftwareandTechnicalKnowhow";
+
+import Preliminaryandpreincorporationexpenses from "./pages/listing/Preliminaryandpreincorporationexpenses";
+
+import Interestduringconstruction from "./pages/listing/Interestduringconstruction";
+
+import Contingencies from "./pages/listing/Contingencies";
+
+import Deposits from "./pages/listing/Deposits";
+
+import Debtfunds from "./pages/listing/Debtfunds";
+
+import Marginmonies1 from "./pages/listing/Marginmonies1";
+
+import Termloans from "./pages/listing/Termloans";
+
+import WorkingCapital from "./pages/listing/WorkingCapital";
+
+import Productionprocess from "./pages/listing/Productionprocess";
+
+import TechnologyandKnowhow from "./pages/listing/TechnologyandKnowhow";
+
+import Proposalinbrief from "./pages/listing/Proposalinbrief";
+
+import Utilities from "./pages/listing/Utilities";
+
+import OperatingStrategies from "./pages/listing/OperatingStrategies";
+
+import ScheduleofImplementation from "./pages/listing/ScheduleofImplementation";
+
+import LicensesandApprovals from "./pages/listing/LicensesandApprovals";
+
+import Swot from "./pages/listing/Swot";
+
+import VMG from "./pages/listing/VMG";
+
+import PESTEL from "./pages/listing/PESTEL";
+
+import EIC from "./pages/listing/EIC";
+
+import EVC from "./pages/listing/EVC";
+
+import RiskMitigantAnalysis from "./pages/listing/RiskMitigantAnalysis";
+
+import PollutioneffluentTreatment from "./pages/listing/PollutioneffluentTreatment";
+
+import SEGAnalysis from "./pages/listing/SEGAnalysis";
+
+import DemandGapAnalysis from "./pages/listing/DemandGapAnalysis";
+
+import Consultantsserviceproviders from "./pages/listing/Consultantsserviceproviders";
+
+import CompetetionMarketLandscapte from "./pages/listing/CompetetionMarketLandscapte";
+
+import StatutoryduesLitigations from "./pages/listing/StatutoryduesLitigations";
+
+import ContracturalduesLitigations from "./pages/listing/ContracturalduesLitigations";
+
+import LegalAudit from "./pages/listing/DocumentationAudit";
+
+import DocumentationAudit from "./pages/listing/DocumentationAudit";
+
+import RevenueLekages from "./pages/listing/RevenueLekages";
+
+import RiskassessmentMitigations from "./pages/listing/RiskassessmentMitigations";
+
+import Pricingconcessions from "./pages/listing/Pricingconcessions";
+
+import FutureBusinesspotential from "./pages/listing/FutureBusinesspotential";
+
+import Capitalcharge from "./pages/listing/Capitalcharge";
+
+import EarnignROCC from "./pages/listing/EarningROCC";
+
+import CreditAuditreport from "./pages/listing/CreditAuditreport";
+
+import SubmissionStockStatementsreports from "./pages/listing/SubmissionStockStatementsreports";
+
+import Chargecreation from "./pages/listing/Chargecreation";
 
 
+import CalenderofEvents from "./pages/listing/CalenderofEvents";
 
+import DueDeligence from "./pages/listing/DueDeligence";
 
+import CreditRating from "./pages/listing/CreditRating";
 
 
 function App(props) {
@@ -250,7 +342,6 @@ function App(props) {
           <Route path="/audited_financial_statements" element={<AuditedFinancialStatements/>} />
 
           <Route path="/credit_history" element={<CreditHistory/>} />
-          
 
           <Route path="/debt_restrutuing" element={<DebtRestrutuing/>} />
           <Route path="/sacrifices_or_written_off" element={<SacrificesOrWrittenOff/>} />
@@ -457,6 +548,103 @@ function App(props) {
 
           <Route path="/transactional_arragement_types" element={<TransactionalArragementTypes/>} />
               
+
+          <Route path="/land" element={<Land/>} />
+
+          <Route path="/buildings" element={<Buildings/>} />
+
+          <Route path="/plant_machinery" element={<PlantandMachinery/>} />
+
+          <Route path="/vehicles" element={<Vehicles/>} />
+
+          <Route path="/software_technical_knowhow" element={<SoftwareandTechnicalKnowhow/>} />
+
+          <Route path="/deposits" element={<Deposits/>} />
+
+          <Route path="/preliminary_preincorporation_expenses" element={<Preliminaryandpreincorporationexpenses/>} />
+
+          <Route path="/interest_during_construction" element={<Interestduringconstruction/>} />
+
+          <Route path="/contingencies" element={<Contingencies/>} />
+
+          <Route path="/margin_monies1" element={<Marginmonies1/>} />
+
+          <Route path="/debt_funds" element={<Debtfunds/>} />
+
+          <Route path="/term_loans" element={<Termloans/>} />
+
+          <Route path="/working_capital" element={<WorkingCapital/>} />
+
+          <Route path="/production_process" element={<Productionprocess/>} />
+
+          <Route path="/technology_Knowhow" element={<TechnologyandKnowhow/>} />
+
+          <Route path="/Proposal_in_brief" element={<Proposalinbrief/>} />          
+
+          <Route path="/utilities" element={<Utilities/>} />          
+
+          <Route path="/operating_strategies" element={<OperatingStrategies/>} />          
+
+          <Route path="/schedule_of_implementation" element={<ScheduleofImplementation/>} />          
+
+          <Route path="/licenses_and_approvals" element={<LicensesandApprovals/>} />
+
+          <Route path="/swot" element={<Swot/>} />          
+
+          <Route path="/vmg" element={<VMG/>} />          
+
+          <Route path="/pestel" element={<PESTEL/>} />          
+
+          <Route path="/eic" element={<EIC/>} />          
+
+          <Route path="/evc" element={<EVC/>} />          
+
+          <Route path="/risk_mitigant_analysis" element={<RiskMitigantAnalysis/>} />          
+
+          <Route path="/pollution_effluent_treatment" element={<PollutioneffluentTreatment/>} />          
+
+          <Route path="/seg_analysis" element={<SEGAnalysis/>} />          
+
+          <Route path="/demand_gap_analysis" element={<DemandGapAnalysis/>} />          
+
+          <Route path="/consultants_service_providers" element={<Consultantsserviceproviders/>} />          
+
+          <Route path="/competetion_market_landscapte" element={<CompetetionMarketLandscapte/>} />          
+
+          <Route path="/StatutoryduesLitigations" element={<StatutoryduesLitigations/>} />          
+
+          <Route path="/contractural_dues_litigations" element={<ContracturalduesLitigations/>} />          
+
+          <Route path="/legal_audit" element={<LegalAudit/>} />          
+
+          <Route path="/documentation_audit" element={<DocumentationAudit/>} />          
+
+          <Route path="/revenue_lekages" element={<RevenueLekages/>} />          
+
+          <Route path="/risk_assessment_mitigations" element={<RiskassessmentMitigations/>} />          
+
+          <Route path="/pricing_concessions" element={<Pricingconcessions/>} />          
+
+          <Route path="/future_business_potential" element={<FutureBusinesspotential/>} />          
+
+          <Route path="/capital_charge" element={<Capitalcharge/>} />          
+
+          <Route path="/earning_rocc" element={<EarnignROCC/>} />          
+
+          <Route path="/credit_audit_report" element={<CreditAuditreport/>} />          
+
+          <Route path="/submission_of_stock_statements_reports" element={<SubmissionStockStatementsreports/>} />          
+
+          <Route path="/charge_creation" element={<Chargecreation/>} />          
+
+          <Route path="/calender_of_events" element={<CalenderofEvents/>} />  
+
+          <Route path="/due_deligence" element={<DueDeligence/>} />          
+
+          <Route path="/credit_rating" element={<CreditRating/>} />
+
+
+
          {/* Protected Routes */}
         <Route element={<RequireAuth />}>
           {/* <Route path="/dashboard" element={<Dashboard />} /> */}
