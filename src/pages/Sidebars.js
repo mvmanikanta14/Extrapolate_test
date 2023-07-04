@@ -31,6 +31,10 @@ const Sidebars =()=>{
               <MenuItem>  Land  </MenuItem>
               <MenuItem>    buildings</MenuItem>
               </SubMenu>
+              
+              <Menu> <MenuItem component={<Link to="/credit_history" />}>Credit History</MenuItem>
+
+              </Menu>
             </Menu>
         </Sidebar>
         
