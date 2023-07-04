@@ -11,7 +11,7 @@ import Badge from "react-bootstrap/Badge";
 
 import Popup from 'reactjs-popup';
 import { useModal } from 'react-hooks-use-modal';
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 
 const BasicDetails = () => {
@@ -32,8 +32,8 @@ const BasicDetails = () => {
       
             <div className="content">
               <div>
-                <p>Modal is Open? {isOpen ? 'Yes' : 'No'}</p>
-                <button onClick={open} className="border-0">OPEN</button>
+                <p> {isOpen ? '' : ''}</p>
+                <button onClick={open} className="border-0">Add</button>
                 <div className="modal-dialog modal-custom-mx">
                   <Modal>
                     <Card style={{ width: '300px', height: '300px' }}>

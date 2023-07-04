@@ -155,10 +155,17 @@ import SecurityCoverage from "./pages/listing/SecurityCoverage";
 import AssetValuation from "./pages/listing/AssetValuation";
 
 import LegalVerificaitonofTitle from "./pages/listing/LegalVerificaitonofTitle";
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import AssetProfile from "./pages/listing/AssetProfile";
 
 import Insurance from "./pages/listing/Insurance";
+
+import CashCredit from "./pages/listing/CashCredit";
+import BillsFacility  from "./pages/listing/BillsFacility";
+import LettersOfCredit  from "./pages/listing/LettersOfCredit";
+import BankGaurantee  from "./pages/listing/BankGaurantee";
+import LevelOfUtilisation  from "./pages/listing/LevelOfUtilisation";
+import TermLoan_facility  from "./pages/listing/TermLoan_facility";
 
 function App(props) {
   return (
@@ -337,6 +344,13 @@ function App(props) {
 <Route path="/legal_verificaiton_of_title" element={<LegalVerificaitonofTitle/>}/>
 <Route path="/asset_profile" element={<AssetProfile/>}/>
 <Route path="/insurance" element={<Insurance/>}/>
+
+<Route path="/cash_credit" element={<CashCredit/>} />
+<Route path="/bills_facility" element={<BillsFacility/>} />
+<Route path="/letters_of_credit" element={<LettersOfCredit/>} />
+<Route path="/bank_gaurantee" element={<BankGaurantee/>} />
+<Route path="/level_of_utilisation" element={<LevelOfUtilisation/>} />
+<Route path="/term_loan_facility" element={<TermLoan_facility/>} />
               
          {/* Protected Routes */}
         <Route element={<RequireAuth />}>
