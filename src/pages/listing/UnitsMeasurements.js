@@ -36,7 +36,7 @@ const UnitsMeasurements = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    UnitsMeasurements
+                    Units of Measurements
                     </Card.Title>
                     <p className="cards-count">
                     
