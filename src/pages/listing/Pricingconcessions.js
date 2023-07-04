@@ -10,7 +10,7 @@ import {
 import Card from "react-bootstrap/Card";
 
 
-const Land = () => {
+const Pricingconcessions = () => {
 
 
   return (
@@ -32,7 +32,7 @@ const Land = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Land 
+                    Pricing and Concessions 
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -53,4 +53,4 @@ const Land = () => {
   );
 };
 
-export default Land;
+export default Pricingconcessions;

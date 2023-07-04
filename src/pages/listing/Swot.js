@@ -10,7 +10,7 @@ import {
 import Card from "react-bootstrap/Card";
 
 
-const Land = () => {
+const Swot= () => {
 
 
   return (
@@ -32,7 +32,8 @@ const Land = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Land 
+                    Swot
+ 
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -53,4 +54,4 @@ const Land = () => {
   );
 };
 
-export default Land;
+export default Swot;
