@@ -1,20 +1,19 @@
 import React from "react";
 
-import Card from "react-bootstrap/Card";
-import {
-    BsChevronDown,
-    BsBriefcase,
-    BsSpeedometer2,
-    BsChevronUp,
-  } from "react-icons/bs";
 import Badge from "react-bootstrap/Badge";
+import {
+  BsChevronDown,
+  BsBriefcase,
+  BsSpeedometer2,
+  BsChevronUp,
+} from "react-icons/bs";
+import Card from "react-bootstrap/Card";
 
 
 
+const ComputationofTaxes = () => {
 
 
-const TermLoans = () => {
- 
   return (
     <section>
     
@@ -34,7 +33,7 @@ const TermLoans = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Term Loans
+                    Computation of Taxes
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -44,7 +43,7 @@ const TermLoans = () => {
                        
                       </Badge>{" "}
                     </p>
-                    <span> comming soon..!!</span>
+                    <span> Computation of Taxes</span>
                   </div>
                 </Card.Body>
               </Card>
@@ -55,4 +54,4 @@ const TermLoans = () => {
   );
 };
 
-export default TermLoans;
+export default ComputationofTaxes;
