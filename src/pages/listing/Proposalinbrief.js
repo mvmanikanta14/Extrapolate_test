@@ -12,7 +12,9 @@ import Badge from "react-bootstrap/Badge";
 
 
 
-const OtherTermsandConditions = () => {
+
+
+const Proposalinbrief = () => {
   
 
 
@@ -36,7 +38,7 @@ const OtherTermsandConditions = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Other Terms and Conditions
+                    Proposal in Brief 
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -46,7 +48,7 @@ const OtherTermsandConditions = () => {
                        
                       </Badge>{" "}
                     </p>
-                    <span> coming Soon  </span>
+                    <span> Coming Soon  </span>
                   </div>
                 </Card.Body>
               </Card>
@@ -56,4 +58,4 @@ const OtherTermsandConditions = () => {
   );
 };
 
-export default OtherTermsandConditions;
+export default Proposalinbrief;

@@ -1,30 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-import Navbar from "../Navbar";
-import Card from "react-bootstrap/Card";
-import {
-    BsChevronDown,
-    BsBriefcase,
-    BsSpeedometer2,
-    BsChevronUp,
-  } from "react-icons/bs";
 import Badge from "react-bootstrap/Badge";
+import {
+  BsChevronDown,
+  BsBriefcase,
+  BsSpeedometer2,
+  BsChevronUp,
+} from "react-icons/bs";
+import Card from "react-bootstrap/Card";
 
 
-
-const OtherTermsandConditions = () => {
-  
-
+const CompetetionMarketLandscapte = () => {
 
 
   return (
     <section>
     
  
-        <div className="container-fluid"> 
-      
-       <div className="content">
-       <div className="col-md-4 col-lg-4 col-sm-12">
+    <div className="container-fluid"> 
+  
+    <div className="content">
+    <div className="col-md-4 col-lg-4 col-sm-12">
               <Card>
                 <Card.Body>
                   <div className="cat-icon">
@@ -36,7 +32,7 @@ const OtherTermsandConditions = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Other Terms and Conditions
+                    Competetion and Market Landscape 
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -46,14 +42,15 @@ const OtherTermsandConditions = () => {
                        
                       </Badge>{" "}
                     </p>
-                    <span> coming Soon  </span>
+                    <span> Coming Soon </span>
                   </div>
                 </Card.Body>
               </Card>
-            </div>      </div> 
-             </div>
-      </section>
+            </div>  
+      </div> 
+    </div>
+  </section>
   );
 };
 
-export default OtherTermsandConditions;
+export default CompetetionMarketLandscapte;

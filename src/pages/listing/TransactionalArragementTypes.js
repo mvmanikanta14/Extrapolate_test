@@ -36,7 +36,7 @@ const TransactionalArragementTypes = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Model_VMG
+                    TransactionalArragementTypes
                     </Card.Title>
                     <p className="cards-count">
                     

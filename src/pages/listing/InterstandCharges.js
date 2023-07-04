@@ -46,7 +46,7 @@ const InterstandCharges = () => {
                        
                       </Badge>{" "}
                     </p>
-                    <span> comming Soon  </span>
+                    <span> coming Soon  </span>
                   </div>
                 </Card.Body>
               </Card>
