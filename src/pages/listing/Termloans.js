@@ -46,7 +46,7 @@ const TermLoans = () => {
                        
                       </Badge>{" "}
                     </p>
-                    <span> Projects this month </span>
+                    <span>Coming Soon</span>
                   </div>
                 </Card.Body>
               </Card>

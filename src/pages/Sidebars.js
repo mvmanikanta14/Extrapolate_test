@@ -27,12 +27,7 @@ const Sidebars =()=>{
                 <MenuItem component={<Link to="/credit_history" />}>Credit History</MenuItem>
 
               </SubMenu>
-              <SubMenu label="Cost of project">
-              <MenuItem component={<Link to="/land" />}>  Land  </MenuItem>
-              <MenuItem>  buildings</MenuItem>
-              <MenuItem component={<Link to="/plant_machinery" />}>  Plant and Machinery </MenuItem>
-
-              </SubMenu>
+              
               <SubMenu label="About the Loan">
               <MenuItem component={<Link to="/drawdown" />}>  Draw down or disbursal schedule  </MenuItem>
               <MenuItem component={<Link to="/repayment" />}>  Repayment </MenuItem>
@@ -269,6 +264,121 @@ const Sidebars =()=>{
               <MenuItem component={<Link to="/term_loan_facility" />}>Term Loans</MenuItem>
               </SubMenu>
             </Menu>   
+
+
+
+            <Menu> <MenuItem component={<Link to="/Proposal_in_brief" />}>Proposal in brief</MenuItem>
+
+             
+
+              <SubMenu label="Cost of project">
+
+              <MenuItem component={<Link to="/land" />}>  Land  </MenuItem>
+
+              <MenuItem component={<Link to="/buildings" />}>  Buildings</MenuItem>
+
+              <MenuItem component={<Link to="/plant_machinery" />}>  Plant and Machinery</MenuItem>
+
+              <MenuItem component={<Link to="/vehicles" />}>  Vehicles</MenuItem>
+
+              <MenuItem component={<Link to="/software_technical_knowhow" />}>  Software and Technical Know how</MenuItem>
+
+              <MenuItem component={<Link to="/deposits" />}>  Deposits</MenuItem>
+
+              <MenuItem component={<Link to="/preliminary_preincorporation_expenses"/>}>  Preliminary and Pre-Incorporation Expenses</MenuItem>
+
+              <MenuItem component={<Link to="/interest_during_construction" />}>  Interest during Construction</MenuItem>
+
+              <MenuItem component={<Link to="/contingencies" />}>  Contingencies</MenuItem>
+
+              </SubMenu>
+
+             
+
+              <SubMenu label="Means of Finance">
+
+              <MenuItem component={<Link to="/margin_monies1" />}>    Margin monies  </MenuItem>
+
+              <MenuItem component={<Link to="/debt_funds" />}>      Debt funds </MenuItem>
+
+              <MenuItem component={<Link to="/term_loans" />}>        Term loans</MenuItem>
+
+              <MenuItem component={<Link to="/working_capital" />}>        Working Capital</MenuItem>
+
+              </SubMenu>
+
+              <Menu> <MenuItem component={<Link to="/utilities" />}>Utilitites</MenuItem></Menu>
+
+              <SubMenu label="Assumptions">
+
+              <MenuItem component={<Link to="/production_process" />}>  Production process    </MenuItem>
+
+              <MenuItem component={<Link to="/technology_Knowhow" />}>  Technology and Know how  </MenuItem>
+
+              <Menu> <MenuItem component={<Link to="/operating_strategies" />}>Operating Strategies</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/schedule_of_implementation" />}>Schedule of Implementation</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/licenses_and_approvals" />}>Licenses and Approvals</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/swot" />}>Swot</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/vmg" />}>VMG</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/pestel" />}>PESTEL</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/eic" />}>EIC</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/evc" />}>evc</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="risk_mitigant_analysis" />}>Risk & Mitigant Analysis</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/pollution_effluent_treatment" />}>Pollution & Effluent Treatment</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/seg_analysis" />}>SEG Analysis</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/demand_gap_analysis" />}>Demand and Gap Analysis</MenuItem></Menu>
+
+             <Menu> <MenuItem component={<Link to="/consultants_service_providers" />}>Consultants and service providers</MenuItem></Menu>
+
+             <Menu> <MenuItem component={<Link to="/competetion_market_landscapte" />}>Competetion and Market Landscape</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/statutory_dues_litigations" />}>Statutory dues and Litigations</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/contractural_dues_litigations" />}>Contractural dues and Litigations</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/legal_audit" />}>Legal Audit</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/documentation_audit" />}>Documentation Audit</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/revenue_lekages" />}>Revenue Leakages</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/risk_assessment_mitigations" />}>Risk Assessment and Mitigations</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/pricing_concessions" />}>Pricing and Concessions</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/future_business_potential" />}>Future Business Potential</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/capital_charge" />}>Capital Charge</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/earning_rocc" />}>Earning and ROCC</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/credit_audit_report" />}>Credit Audit report</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/submission_of_stock_statements_reports" />}>Submission of Stock Statements & reports</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/charge_creation " />}>Charge Creation </MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/calender_of_events" />}>Calender of Events</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/due_deligence" />}>Due Deligence</MenuItem></Menu>
+
+              <Menu> <MenuItem component={<Link to="/credit_rating" />}>Credit Rating</MenuItem></Menu>
+              </SubMenu>
+              </Menu>
+
+
+            
      
         </Sidebar>
         
