@@ -12,7 +12,7 @@ import Badge from "react-bootstrap/Badge";
 
 
 
-const OtherTermsandConditions = () => {
+const TransactionalArragementTypes = () => {
   
 
 
@@ -36,7 +36,7 @@ const OtherTermsandConditions = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Other Terms and Conditions
+                    TransactionalArragementTypes
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -56,4 +56,4 @@ const OtherTermsandConditions = () => {
   );
 };
 
-export default OtherTermsandConditions;
+export default TransactionalArragementTypes;

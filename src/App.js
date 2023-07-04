@@ -36,6 +36,7 @@ import DerivativeAndHedging from "./pages/listing/DerivativeAndHedging";
 import SickAndBIFRProceddings from "./pages/listing/SickAndBIFRProceddings";
 import Memos from "./pages/listing/Memos";
 import SanctionTermCompliances from "./pages/listing/SanctionTermCompliances";
+
 import RatingSystems from "./pages/listing/RatingSystems";
 import Subsidies from "./pages/listing/Subsidies";
 import Checklists from "./pages/listing/Checklists";
@@ -213,6 +214,7 @@ function App(props) {
           <Route path="/audited_financial_statements" element={<AuditedFinancialStatements/>} />
 
           <Route path="/credit_history" element={<CreditHistory/>} />
+          
 
           <Route path="/debt_restrutuing" element={<DebtRestrutuing/>} />
           <Route path="/sacrifices_or_written_off" element={<SacrificesOrWrittenOff/>} />
@@ -344,13 +346,6 @@ function App(props) {
 <Route path="/legal_verificaiton_of_title" element={<LegalVerificaitonofTitle/>}/>
 <Route path="/asset_profile" element={<AssetProfile/>}/>
 <Route path="/insurance" element={<Insurance/>}/>
-
-<Route path="/cash_credit" element={<CashCredit/>} />
-<Route path="/bills_facility" element={<BillsFacility/>} />
-<Route path="/letters_of_credit" element={<LettersOfCredit/>} />
-<Route path="/bank_gaurantee" element={<BankGaurantee/>} />
-<Route path="/level_of_utilisation" element={<LevelOfUtilisation/>} />
-<Route path="/term_loan_facility" element={<TermLoan_facility/>} />
               
          {/* Protected Routes */}
         <Route element={<RequireAuth />}>
