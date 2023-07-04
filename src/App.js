@@ -20,6 +20,38 @@ import Shareholding from "./pages/listing/Shareholding";
 import RelatedPartiesControllingInterest from "./pages/listing/RelatedPartiesControllingInterest";
 import AuditedFinancialStatements from "./pages/listing/AuditedFinancialStatements";
 import CreditHistory from "./pages/listing/CreditHistory";
+import DebtRestrutuing from "./pages/listing/DebtRestrutuing";
+import SacrificesOrWrittenOff from "./pages/listing/SacrificesOrWrittenOff";
+import NPAStatus from "./pages/listing/NPAStatus";
+import Capitalisation from "./pages/listing/Capitalisation";
+import ReschedulingOfRepayments from "./pages/listing/ReschedulingOfRepayments";
+import CalenderOfLoanApplication from "./pages/listing/CalenderOfLoanApplication";
+import ListedSharesAndMovementinShareMarket from "./pages/listing/ListedSharesAndMovementinShareMarket";
+import GovernmentPoliciesAndImpact from "./pages/listing/GovernmentPoliciesAndImpact";
+import DRTProceedings from "./pages/listing/DRTProceedings";
+import ConsortiumAndMultipleBankingArrangemnts from "./pages/listing/ConsortiumAndMultipleBankingArrangemnts";
+import EarlyWarningSignals from "./pages/listing/EarlyWarningSignals";
+import UnitsInspectAndFindings from "./pages/listing/UnitsInspectAndFindings";
+import DerivativeAndHedging from "./pages/listing/DerivativeAndHedging";
+import SickAndBIFRProceddings from "./pages/listing/SickAndBIFRProceddings";
+import Memos from "./pages/listing/Memos";
+import SanctionTermCompliances from "./pages/listing/SanctionTermCompliances";
+
+
+
+
+import Model_PESTel from "./pages/listing/Model_PESTel";
+import Model_VMG from "./pages/listing/Model_VMG";
+import Model_EIC from "./pages/listing/Model_EIC";
+import Decisions from "./pages/listing/Decisions";
+import Model_drafts from "./pages/listing/Model_drafts";
+import Checklists from "./pages/listing/Checklists";
+import Reports from "./pages/listing/Reports";
+import AnnexuresForms from "./pages/listing/AnnexuresForms";
+import TimeLines from "./pages/listing/TimeLines";
+import Plan_templates from "./pages/listing/Plan_templates";
+import UnitsMeasurements from "./pages/listing/UnitsMeasurements";
+import TransactionalArragementTypes from "./pages/listing/TransactionalArragementTypes";
 import Land from "./pages/listing/Land";
 import PlantandMachinery from "./pages/listing/PlantandMachinery";
 import Drawdown  from "./pages/listing/Drawdown";
@@ -42,20 +74,8 @@ import RatingSystems from "./pages/listing/RatingSystems";
 import Agencies from "./pages/listing/Agencies";
 import Subsidies from "./pages/listing/Subsidies";
 import LoanProducts from "./pages/listing/LoanProducts";
-
 import ModelSwot from "./pages/listing/ModelSwot";
-import Model_PESTel from "./pages/listing/Model_PESTel";
-import Model_VMG from "./pages/listing/Model_VMG";
-import Model_EIC from "./pages/listing/Model_EIC";
-import Decisions from "./pages/listing/Decisions";
-import Model_drafts from "./pages/listing/Model_drafts";
-import Checklists from "./pages/listing/Checklists";
-import Reports from "./pages/listing/Reports";
-import AnnexuresForms from "./pages/listing/AnnexuresForms";
-import TimeLines from "./pages/listing/TimeLines";
-import Plan_templates from "./pages/listing/Plan_templates";
-import UnitsMeasurements from "./pages/listing/UnitsMeasurements";
-import TransactionalArragementTypes from "./pages/listing/TransactionalArragementTypes";
+
 
 
 
@@ -145,11 +165,43 @@ function App(props) {
 
 
 
+          <Route path="/debt_restrutuing" element={<DebtRestrutuing/>} />
+<Route path="/sacrifices_or_written_off" element={<SacrificesOrWrittenOff/>} />
+<Route path="/npa_status" element={<NPAStatus/>} />
+<Route path="/capitalisation" element={<Capitalisation/>} />
+<Route path="/rescheduling_of_repayments" element={<ReschedulingOfRepayments/>} />
+<Route path="/calender_of_loan_application" element={<CalenderOfLoanApplication/>} />
+<Route path="/listed_shares_and_movement_in_share_market" element={<ListedSharesAndMovementinShareMarket/>} />
+<Route path="/government_policies_and_impact" element={<GovernmentPoliciesAndImpact/>} />
+<Route path="/drt_proceedings" element={<DRTProceedings/>} />
+<Route path="/consortium_and_multiple_banking_arrangemnts" element={<ConsortiumAndMultipleBankingArrangemnts/>} />
+<Route path="/early_warning_signals" element={<EarlyWarningSignals/>} />
+<Route path="/units_inspect_and_findings" element={<UnitsInspectAndFindings/>} />
+<Route path="/derivative_and_hedging" element={<DerivativeAndHedging/>} />
+<Route path="/sick_and_bIFR_proceddings" element={<SickAndBIFRProceddings/>} />
+<Route path="/memos" element={<Memos/>} />
+<Route path="/sanction_term_compliances" element={<SanctionTermCompliances/>} />
+<Route path="/rating_systems" element={<RatingSystems/>} />
+<Route path="/subsidies" element={<Subsidies/>} />
+<Route path="/checklists" element={<Checklists/>} />
+<Route path="/decisions" element={<Decisions/>} />
+{/* <Route path="/notes" element={<Notes/>} />
+<Route path="/communications" element={<Communications/>} />
+<Route path="/findings_by_others" element={<FindingsByOthers/>} />
+<Route path="/estimates_achievments_and_justification" element={<EstimatesAchievmentsAndJustification/>} />
+<Route path="/projections_feasibility_and_justifictations" element={<ProjectionsFeasibilityAndJustifictations/>} />
+<Route path="/loan_policy_deviations_justifications" element={<LoanPolicyDeviationsJustifications/>} />
+<Route path="/reports" element={<Reports/>} />
+<Route path="/drafts" element={<Drafts/>} />
+<Route path="/pending_jobs" element={<PendingJobs/>} />
+<Route path="/search_by_templates" element={<SearchByTemplates/>} />
+<Route path="/search_by_tags" element={<SearchByTags/>} /> */}
     
          {/* Protected Routes */}
         <Route element={<RequireAuth />}>
           {/* <Route path="/dashboard" element={<Dashboard />} /> */}
           <Route path="/sidebars" element={<Sidebars/>} />
+          
           
           
           
