@@ -259,6 +259,15 @@ const Sidebars =()=>{
                 <MenuItem component={<Link to="/insurance" />}>Insurance </MenuItem>
 
               </SubMenu>
+
+              <SubMenu label="Conduct of Facilities ">
+              <MenuItem component={<Link to="/cash_credit" />}> Cash Credit </MenuItem>
+              <MenuItem component={<Link to="/bills_facility" />}> Bills Facility</MenuItem>
+              <MenuItem component={<Link to="/letters_of_credit" />}>Letters Of Credit</MenuItem>
+              <MenuItem component={<Link to="/bank_gaurantee" />}>Bank Gaurantee</MenuItem>
+              <MenuItem component={<Link to="/level_of_utilisation" />}>Level Of Utilisation</MenuItem>
+              <MenuItem component={<Link to="/term_loan_facility" />}>Term Loans</MenuItem>
+              </SubMenu>
             </Menu>   
      
         </Sidebar>
