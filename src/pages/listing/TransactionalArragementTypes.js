@@ -12,7 +12,7 @@ import Badge from "react-bootstrap/Badge";
 
 
 
-const Model_PesteL = () => {
+const TransactionalArragementTypes = () => {
   
 
 
@@ -36,7 +36,7 @@ const Model_PesteL = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Model_PESTeL
+                    Model_VMG
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -56,4 +56,4 @@ const Model_PesteL = () => {
   );
 };
 
-export default Model_PesteL;
+export default TransactionalArragementTypes;
