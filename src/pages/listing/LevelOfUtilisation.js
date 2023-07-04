@@ -1,6 +1,5 @@
 import React from "react";
 
-import Navbar from "../Navbar";
 import Card from "react-bootstrap/Card";
 import {
     BsChevronDown,
@@ -9,22 +8,21 @@ import {
     BsChevronUp,
   } from "react-icons/bs";
 import Badge from "react-bootstrap/Badge";
+
+
+
+
+
+const LevelOfUtilisation = () => {
  
-
-
-const TermLoans = () => {
-  
-
-
-
   return (
     <section>
     
  
         <div className="container-fluid"> 
       
-       <div className="content">
-       <div className="col-md-4 col-lg-4 col-sm-12">
+        <div className="content">
+        <div className="col-md-4 col-lg-4 col-sm-12">
               <Card>
                 <Card.Body>
                   <div className="cat-icon">
@@ -36,7 +34,7 @@ const TermLoans = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Term Loans 
+                    Level Of Utilisation
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -46,14 +44,15 @@ const TermLoans = () => {
                        
                       </Badge>{" "}
                     </p>
-                    <span> Projects this month </span>
+                    <span> comming soon..!!</span>
                   </div>
                 </Card.Body>
               </Card>
-            </div>      </div> 
-             </div>
+            </div>      
+          </div> 
+        </div>
       </section>
   );
 };
 
-export default TermLoans;
+export default LevelOfUtilisation;
