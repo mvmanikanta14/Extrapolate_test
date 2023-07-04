@@ -314,6 +314,7 @@ const Sidebars =()=>{
               <MenuItem component={<Link to="/production_process" />}>  Production process    </MenuItem>
 
               <MenuItem component={<Link to="/technology_Knowhow" />}>  Technology and Know how  </MenuItem>
+              </SubMenu>
 
               <Menu> <MenuItem component={<Link to="/operating_strategies" />}>Operating Strategies</MenuItem></Menu>
 
@@ -374,7 +375,7 @@ const Sidebars =()=>{
               <Menu> <MenuItem component={<Link to="/due_deligence" />}>Due Deligence</MenuItem></Menu>
 
               <Menu> <MenuItem component={<Link to="/credit_rating" />}>Credit Rating</MenuItem></Menu>
-              </SubMenu>
+              
               </Menu>
 
 
