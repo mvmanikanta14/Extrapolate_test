@@ -41,8 +41,21 @@ import Banks from "./pages/listing/Banks";
 import RatingSystems from "./pages/listing/RatingSystems";
 import Agencies from "./pages/listing/Agencies";
 import Subsidies from "./pages/listing/Subsidies";
-
 import LoanProducts from "./pages/listing/LoanProducts";
+
+import ModelSwot from "./pages/listing/ModelSwot";
+import Model_PESTel from "./pages/listing/Model_PESTel";
+import Model_VMG from "./pages/listing/Model_VMG";
+import Model_EIC from "./pages/listing/Model_EIC";
+import Decisions from "./pages/listing/Decisions";
+import Model_drafts from "./pages/listing/Model_drafts";
+import Checklists from "./pages/listing/Checklists";
+import Reports from "./pages/listing/Reports";
+import AnnexuresForms from "./pages/listing/AnnexuresForms";
+import TimeLines from "./pages/listing/TimeLines";
+import Plan_templates from "./pages/listing/Plan_templates";
+import UnitsMeasurements from "./pages/listing/UnitsMeasurements";
+import TransactionalArragementTypes from "./pages/listing/TransactionalArragementTypes";
 
 
 
@@ -115,19 +128,19 @@ function App(props) {
           <Route path="/agencies" element={<Agencies/>} />
           <Route path="/subsidies" element={<Subsidies/>} />
           <Route path="/loan_Products" element={<LoanProducts/>} />
-          <Route path="/model_swot" element={<Risk_types/>} />
-          <Route path="/model_pestel" element={<Risk_types/>} />
-          <Route path="/model_vmg" element={<Risk_types/>} />
-          <Route path="/model_eic" element={<Risk_types/>} />
-          <Route path="/checklists" element={<Risk_types/>} />
-          <Route path="/decisions" element={<Risk_types/>} />
-          <Route path="/model_drafts" element={<Risk_types/>} />
-          <Route path="/reports" element={<Risk_types/>} />
-          <Route path="/annexures_forms" element={<Risk_types/>} />
-          <Route path="/timeLines" element={<Risk_types/>} />
-          <Route path="/plan_templates" element={<Risk_types/>} />
-          <Route path="/units_measurements" element={<Risk_types/>} />
-          <Route path="/transactional_arragement_types" element={<Risk_types/>} />
+          <Route path="/model_swot" element={<ModelSwot/>} />
+          <Route path="/model_pestel" element={<Model_PESTel/>} />
+          <Route path="/model_vmg" element={<Model_VMG/>} />
+          <Route path="/model_eic" element={<Model_EIC/>} />
+          <Route path="/checklists" element={<Checklists/>} />
+          <Route path="/decisions" element={<Decisions/>} />
+          <Route path="/model_drafts" element={<Model_drafts/>} />
+          <Route path="/reports" element={<Reports/>} />
+          <Route path="/annexures_forms" element={<AnnexuresForms/>} />
+          <Route path="/timeLines" element={<TimeLines/>} />
+          <Route path="/plan_templates" element={<Plan_templates/>} />
+          <Route path="/units_measurements" element={<UnitsMeasurements/>} />
+          <Route path="/transactional_arragement_types" element={<TransactionalArragementTypes/>} />
 
 
 
