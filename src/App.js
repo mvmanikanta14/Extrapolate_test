@@ -85,7 +85,8 @@ import MoemnetofLongtermFunds from "./pages/listing/MoemnetofLongtermFunds";
 import Cashflow from "./pages/listing/Cashflow";
 import InventoryandreceivablesLevels from "./pages/listing/InventoryandreceivablesLevels";
 import AssessedBankFinance from "./pages/listing/AssessedBankFinance";
-import TermLoans from "./pages/listing/TermLoans";
+ import TermLoans from "./pages/listing/Termloans";
+ import Header2 from "./pages/Header2";
 
 import Assessmentof_CC from "./pages/listing/Assessmentof_CC";
 
@@ -284,68 +285,68 @@ function App(props) {
 
           <Route path="/term_loan" element={<TermLoans/>} />
 
-<Route path="/assessment_of_cc" element={<Assessmentof_CC/>}/>
+        <Route path="/assessment_of_cc" element={<Assessmentof_CC/>}/>
 
-<Route path="/assessment_of_Overdraft_limits" element={<AssessmentOfOverdraftLimits/>}/>
+        <Route path="/assessment_of_Overdraft_limits" element={<AssessmentOfOverdraftLimits/>}/>
 
-<Route path="/epc_fbd_limits" element={<EpcFbdLimits/>}/>
+        <Route path="/epc_fbd_limits" element={<EpcFbdLimits/>}/>
 
-<Route path="/assessment_of_lc_limits" element={<AssessmentOfLcLimits/>}/>
+        <Route path="/assessment_of_lc_limits" element={<AssessmentOfLcLimits/>}/>
 
-<Route path="/assessment_of_bg_limits" element={<AssessmentOfBgLimits/>}/>
+        <Route path="/assessment_of_bg_limits" element={<AssessmentOfBgLimits/>}/>
 
-<Route path="/assessment_of_bg_limits_for_epc_contractors" element={<AssessmentofBgLimitsForEpcContractors/>}/>
-
-
-
-
-<Route path="/program" element={<Program/>}/>
-
-<Route path="/team_and_permissions" element={<TeamAndPermissions/>}/>
-
-<Route path="/calenderinsing" element={<Calenderinsing/>}/>
-
-<Route path="/sign_off" element={<SignOff/>}/>
-
-<Route path="/review" element={<Review/>}/>
+        <Route path="/assessment_of_bg_limits_for_epc_contractors" element={<AssessmentofBgLimitsForEpcContractors/>}/>
 
 
 
 
-<Route path="/entity_locations" element={<EntityLocations/>}/>
+        <Route path="/program" element={<Program/>}/>
 
-<Route path="/entity_businsses" element={<EntityBusinsses/>}/>
+        <Route path="/team_and_permissions" element={<TeamAndPermissions/>}/>
 
-<Route path="/products" element={<Products/>}/>
+        <Route path="/calenderinsing" element={<Calenderinsing/>}/>
 
-<Route path="/co_efficients" element={<CoEfficients/>}/>
+        <Route path="/sign_off" element={<SignOff/>}/>
 
-<Route path="/factors" element={<Factors/>}/>
+        <Route path="/review" element={<Review/>}/>
 
-<Route path="/business_fss" element={<BusinessFss/>}/>
 
-<Route path="/product_mixture" element={<ProductMixture/>}/>
 
-<Route path="/yield" element={<Yield/>}/>
 
-<Route path="/transactional_arragments" element={<TransactionalArragments/>}/>
-<Route path="/Capacity_and_utilisation" element={<CapacityAndUtilisation/>}/>
-<Route path="/personal_profile" element={<PersonalProfile/>}/>
-<Route path="/education_background" element={<EducationBackground/>}/>
-<Route path="/work_experience" element={<WorkExperience/>}/>
-<Route path="/credit_score" element={<CreditScore/>}/>
-<Route path="/present_networth" element={<PresentNetworth/>}/>
-<Route path="/income_and_tax_history" element={<IncomeAndTaxHistory/>}/>
-<Route path="/due_deligence_and_deliquency" element={<DueDeligenceAndDeliquency/>}/>
-<Route path="/present_positions" element={<PresentPositions/>}/>  
-<Route path="/primary_security" element={<PrimarySecurity/>}/>
-<Route path="/collateralsecurity" element={<CollateralSecurity/>}/>
-<Route path="/guarantee" element={<Garuantees/>}/>
-<Route path="/security_coverage" element={<SecurityCoverage/>}/>
-<Route path="/asset_valuation" element={<AssetValuation/>}/>
-<Route path="/legal_verificaiton_of_title" element={<LegalVerificaitonofTitle/>}/>
-<Route path="/asset_profile" element={<AssetProfile/>}/>
-<Route path="/insurance" element={<Insurance/>}/>
+        <Route path="/entity_locations" element={<EntityLocations/>}/>
+
+        <Route path="/entity_businsses" element={<EntityBusinsses/>}/>
+
+        <Route path="/products" element={<Products/>}/>
+
+        <Route path="/co_efficients" element={<CoEfficients/>}/>
+
+        <Route path="/factors" element={<Factors/>}/>
+
+        <Route path="/business_fss" element={<BusinessFss/>}/>
+
+        <Route path="/product_mixture" element={<ProductMixture/>}/>
+
+        <Route path="/yield" element={<Yield/>}/>
+
+        <Route path="/transactional_arragments" element={<TransactionalArragments/>}/>
+        <Route path="/Capacity_and_utilisation" element={<CapacityAndUtilisation/>}/>
+        <Route path="/personal_profile" element={<PersonalProfile/>}/>
+        <Route path="/education_background" element={<EducationBackground/>}/>
+        <Route path="/work_experience" element={<WorkExperience/>}/>
+        <Route path="/credit_score" element={<CreditScore/>}/>
+        <Route path="/present_networth" element={<PresentNetworth/>}/>
+        <Route path="/income_and_tax_history" element={<IncomeAndTaxHistory/>}/>
+        <Route path="/due_deligence_and_deliquency" element={<DueDeligenceAndDeliquency/>}/>
+        <Route path="/present_positions" element={<PresentPositions/>}/>  
+        <Route path="/primary_security" element={<PrimarySecurity/>}/>
+        <Route path="/collateralsecurity" element={<CollateralSecurity/>}/>
+        <Route path="/guarantee" element={<Garuantees/>}/>
+        <Route path="/security_coverage" element={<SecurityCoverage/>}/>
+        <Route path="/asset_valuation" element={<AssetValuation/>}/>
+        <Route path="/legal_verificaiton_of_title" element={<LegalVerificaitonofTitle/>}/>
+        <Route path="/asset_profile" element={<AssetProfile/>}/>
+        <Route path="/insurance" element={<Insurance/>}/>
               
          {/* Protected Routes */}
         <Route element={<RequireAuth />}>
