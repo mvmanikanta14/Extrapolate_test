@@ -42,6 +42,8 @@ import RatingSystems from "./pages/listing/RatingSystems";
 import Agencies from "./pages/listing/Agencies";
 import Subsidies from "./pages/listing/Subsidies";
 
+import LoanProducts from "./pages/listing/LoanProducts";
+
 
 
 
@@ -112,7 +114,7 @@ function App(props) {
           <Route path="/rating_systems" element={<RatingSystems/>} />
           <Route path="/agencies" element={<Agencies/>} />
           <Route path="/subsidies" element={<Subsidies/>} />
-          <Route path="/loan_Products" element={<Risk_types/>} />
+          <Route path="/loan_Products" element={<LoanProducts/>} />
           <Route path="/model_swot" element={<Risk_types/>} />
           <Route path="/model_pestel" element={<Risk_types/>} />
           <Route path="/model_vmg" element={<Risk_types/>} />
