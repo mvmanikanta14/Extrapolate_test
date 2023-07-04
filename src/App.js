@@ -84,7 +84,7 @@ import MoemnetofLongtermFunds from "./pages/listing/MoemnetofLongtermFunds";
 import Cashflow from "./pages/listing/Cashflow";
 import InventoryandreceivablesLevels from "./pages/listing/InventoryandreceivablesLevels";
 import AssessedBankFinance from "./pages/listing/AssessedBankFinance";
-import TermLoans from "./pages/listing/TermLoans";
+import TermLoans from "./pages/listing/Termloans";
 
 import Assessmentof_CC from "./pages/listing/Assessmentof_CC";
 
