@@ -20,6 +20,28 @@ import Shareholding from "./pages/listing/Shareholding";
 import RelatedPartiesControllingInterest from "./pages/listing/RelatedPartiesControllingInterest";
 import AuditedFinancialStatements from "./pages/listing/AuditedFinancialStatements";
 import CreditHistory from "./pages/listing/CreditHistory";
+import Land from "./pages/listing/Land";
+import PlantandMachinery from "./pages/listing/PlantandMachinery";
+import Drawdown  from "./pages/listing/Drawdown";
+import Repayment from "./pages/listing/Repayment";
+import Margin from "./pages/listing/Margin";
+import OtherTermsandConditions from "./pages/listing/OtherTermsandConditions";
+import InterstandCharges from "./pages/listing/InterstandCharges";
+import Security from "./pages/listing/Security";
+import Loans from "./pages/listing/Loans";
+import Assets from "./pages/listing/Assets";
+import Persons from "./pages/listing/Persons";
+import BusinessEntities from "./pages/listing/BusinessEntities";
+import ExternalUsers from "./pages/listing/ExternalUsers";
+import Users from "./pages/listing/Users";
+import Userpermissions from "./pages/listing/Userpermissions";
+import Risk_types from "./pages/listing/Risk_types";
+import TermsConditionsTypes from "./pages/listing/TermsConditionsTypes";
+import Banks from "./pages/listing/Banks";
+import RatingSystems from "./pages/listing/RatingSystems";
+import Agencies from "./pages/listing/Agencies";
+import Subsidies from "./pages/listing/Subsidies";
+
 
 
 
@@ -69,6 +91,43 @@ function App(props) {
           <Route path="/audited_financial_statements" element={<AuditedFinancialStatements/>} />
 
           <Route path="/credit_history" element={<CreditHistory/>} />
+          <Route path="/land" element={<Land/>} />
+          <Route path="/plant_machinery" element={<PlantandMachinery/>} />
+          <Route path="/drawdown" element={<Drawdown/>} />
+          <Route path="/repayment" element={<Repayment/>} />
+          <Route path="/margin_monies" element={<Margin/>} />
+          <Route path="/terms_condition" element={<OtherTermsandConditions/>} />
+          <Route path="/interst_charge" element={<InterstandCharges/>} />
+          <Route path="/security" element={<Security/>} />
+          <Route path="/users" element={<Users/>} />
+          <Route path="/external_users" element={<ExternalUsers/>} />
+          <Route path="/business_entities" element={<BusinessEntities/>} />
+          <Route path="/persons" element={<Persons/>} />
+          <Route path="/assets" element={<Assets/>} />
+          <Route path="/loans" element={<Loans/>} />
+          <Route path="/user_permissions" element={<Userpermissions/>} />
+          <Route path="/risk_types" element={<Risk_types/>} />
+          <Route path="/terms_condition_types" element={<TermsConditionsTypes/>} />
+          <Route path="/banks" element={<Banks/>} />
+          <Route path="/rating_systems" element={<RatingSystems/>} />
+          <Route path="/agencies" element={<Agencies/>} />
+          <Route path="/subsidies" element={<Subsidies/>} />
+          <Route path="/loan_Products" element={<Risk_types/>} />
+          <Route path="/model_swot" element={<Risk_types/>} />
+          <Route path="/model_pestel" element={<Risk_types/>} />
+          <Route path="/model_vmg" element={<Risk_types/>} />
+          <Route path="/model_eic" element={<Risk_types/>} />
+          <Route path="/checklists" element={<Risk_types/>} />
+          <Route path="/decisions" element={<Risk_types/>} />
+          <Route path="/model_drafts" element={<Risk_types/>} />
+          <Route path="/reports" element={<Risk_types/>} />
+          <Route path="/annexures_forms" element={<Risk_types/>} />
+          <Route path="/timeLines" element={<Risk_types/>} />
+          <Route path="/plan_templates" element={<Risk_types/>} />
+          <Route path="/units_measurements" element={<Risk_types/>} />
+          <Route path="/transactional_arragement_types" element={<Risk_types/>} />
+
+
 
 
     
