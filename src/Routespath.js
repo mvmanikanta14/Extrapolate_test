@@ -610,7 +610,7 @@ function Routespath(props) {
 
           <Route path="/competetion_market_landscapte" element={<CompetetionMarketLandscapte/>} />          
 
-          <Route path="/StatutoryduesLitigations" element={<StatutoryduesLitigations/>} />          
+          <Route path="/Statutory_dues_litigations" element={<StatutoryduesLitigations/>} />          
 
           <Route path="/contractural_dues_litigations" element={<ContracturalduesLitigations/>} />          
 
