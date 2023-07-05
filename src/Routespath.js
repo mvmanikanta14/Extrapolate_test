@@ -188,7 +188,7 @@ import Agencies from "./pages/listing/Agencies";
 
 import LoanProducts from "./pages/listing/LoanProducts";
 import ModelSwot from "./pages/listing/ModelSwot";
-import Model_PesteL from "./pages/listing/Model_PesteL";
+import Model_PesteL from "./pages/listing/Model_PESTeL";
 import Model_drafts from "./pages/listing/Model_drafts";
 import AnnexuresForms from "./pages/listing/AnnexuresForms";
 import TimeLines from "./pages/listing/TimeLines";
