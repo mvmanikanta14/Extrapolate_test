@@ -1,21 +1,37 @@
-import React from "react";
+import React,{useState} from "react";
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import Navbar from "../pages/Navbar";
 import { Link } from 'react-router-dom';
 import Clients from "./listing/BasicDetails";
+import { FaHamburger } from "react-icons/fa";
+
+
+  
+
+ 
 
 
 
 const Sidebars =()=>{
+ 
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
-
-    return(
-       
+    return(   
         
 
-      <Sidebar >
-            <Menu>
+      
+        <div className="sidebar">
+      <div className="toggle-button" onClick={toggleSidebar}>
+        <FaHamburger />
+      </div>
+      {isSidebarOpen && (
+        <div className="sidebar-content">
+          <Sidebar >
+          <Menu>
               <SubMenu label="About the Entity">
                 <MenuItem component={<Link to="/basic_details" />}> Basic Details </MenuItem>
                 <MenuItem component={<Link to="/share_holding_pattern" />}>Share Holding Pattern</MenuItem>
@@ -382,6 +398,10 @@ const Sidebars =()=>{
             
      
         </Sidebar>
+        </div>
+      )}
+    </div>
+            
         
        
     )

@@ -283,6 +283,15 @@
 //           <Route path="/assessed_bank_finance" element={<AssessedBankFinance/>} />
 
 //           <Route path="/term_loan" element={<TermLoans/>} />
+import { Routes, Route } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import { Dashboard } from "./pages/Dashboard";
+import RequireAuth from "./pages/RequireAuth";
+
+import Appp from "./Appp";
+import Routespath from "./Routespath";
+import Sidebars from "./pages/Sidebars";
+import Header from "./pages/Header";
 
 // <Route path="/assessment_of_cc" element={<Assessmentof_CC/>}/>
 
@@ -290,67 +299,350 @@
 
 // <Route path="/epc_fbd_limits" element={<EpcFbdLimits/>}/>
 
-// <Route path="/assessment_of_lc_limits" element={<AssessmentOfLcLimits/>}/>
+      {/* <div className="content">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>  */}
+            </div>
+     </section>
+   
+    <Routes>
+ 
+      {/* Unprotected Routes */}
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/app" element={<Appp />} />
+      <Route path="/dashboard" element={<Dashboard />} />
 
-// <Route path="/assessment_of_bg_limits" element={<AssessmentOfBgLimits/>}/>
+      <Route path="/share_holding_pattern" element={<Shareholding />} />
+          <Route path="/assignment/add" element={<AddAssignment />} />
+          <Route path="/assignment/edit/:id" element={<AddAssignment />} />
 
-// <Route path="/assessment_of_bg_limits_for_epc_contractors" element={<AssessmentofBgLimitsForEpcContractors/>}/>
+          <Route path="/basic_details" element={<Clients />} />
+          <Route path="/clients/add" element={<AddClients />} />
+          <Route path="/clients/edit/:id" element={<AddClients />} />
+
+          <Route path="/management" element={<Management />} />
+          <Route path="/milestone/add" element={<AddMilestone />} />
+          <Route path="/milestone/edit/:id" element={<AddMilestone />} />
+
+          <Route path="/banking_arrangment_credit_limits" element={<BankingArrangmentCreditLimits />} />
+          <Route path="/plans/add" element={<AddEditPlan />} />
+          <Route path="/plans/edit/:id" element={<AddEditPlan />} />
+
+          <Route path="/company_group_exposure" element={<CompanyGroupexposure/>} />
+          <Route path="/user/add" element={<AddEditUser/>} />
+
+          <Route path="/related_parties_controlling_interest" element={<RelatedPartiesControllingInterest/>} />
+
+          <Route path="/audited_financial_statements" element={<AuditedFinancialStatements/>} />
+
+          <Route path="/credit_history" element={<CreditHistory/>} />
+
+          <Route path="/debt_restrutuing" element={<DebtRestrutuing/>} />
+          <Route path="/sacrifices_or_written_off" element={<SacrificesOrWrittenOff/>} />
+          <Route path="/npa_status" element={<NPAStatus/>} />
+          <Route path="/capitalisation" element={<Capitalisation/>} />
+          <Route path="/rescheduling_of_repayments" element={<ReschedulingOfRepayments/>} />
+          <Route path="/calender_of_loan_application" element={<CalenderOfLoanApplication/>} />
+          <Route path="/listed_shares_and_movement_in_share_market" element={<ListedSharesAndMovementinShareMarket/>} />
+          <Route path="/government_policies_and_impact" element={<GovernmentPoliciesAndImpact/>} />
+          <Route path="/drt_proceedings" element={<DRTProceedings/>} />
+          <Route path="/consortium_and_multiple_banking_arrangemnts" element={<ConsortiumAndMultipleBankingArrangemnts/>} />
+          <Route path="/early_warning_signals" element={<EarlyWarningSignals/>} />
+          <Route path="/units_inspect_and_findings" element={<UnitsInspectAndFindings/>} />
+          <Route path="/derivative_and_hedging" element={<DerivativeAndHedging/>} />
+          <Route path="/sick_and_bIFR_proceddings" element={<SickAndBIFRProceddings/>} />
+          <Route path="/memos" element={<Memos/>} />
+          <Route path="/sanction_term_compliances" element={<SanctionTermCompliances/>} />
+          <Route path="/rating_systems" element={<RatingSystems/>} />
+          <Route path="/subsidies" element={<Subsidies/>} />
+          <Route path="/checklists" element={<Checklists/>} />
+          <Route path="/decisions" element={<Decisions/>} />
+          <Route path="/notes" element={<Notes/>} />
+          <Route path="/communications" element={<Communications/>} />
+          <Route path="/findings_by_others" element={<FindingsByOthers/>} />
+          <Route path="/estimates_achievments_and_justification" element={<EstimatesAchievmentsAndJustification/>} />
+          <Route path="/projections_feasibility_and_justifictations" element={<ProjectionsFeasibilityAndJustifictations/>} />
+          <Route path="/loan_policy_deviations_justifications" element={<LoanPolicyDeviationsJustifications/>} />
+          <Route path="/reports" element={<Reports/>} />
+          <Route path="/drafts" element={<Drafts/>} />
+          <Route path="/pending_jobs" element={<PendingJobs/>} />
+          <Route path="/search_by_templates" element={<SearchByTemplates/>} />
+          <Route path="/search_by_tags" element={<SearchByTags/>} />
+
+          <Route path="/profit_and_loss_account" element={<Profitandlossaccount/>} />
+          <Route path="/balance_Sheet" element={<BalanceSheet/>} />
+          <Route path="/cash_flow_statemnet" element={<CashFlowStatemnet/>} />
+          <Route path="/working_capital_requiremnt" element={<WorkingCapitalRequiremnt/>} />
+          <Route path="/dscr_g" element={<DSCR_G/>} />
+          <Route path="/dscr_n" element={<DSCR_N/>} />
+          <Route path="/svp_analysis" element={<SVPAnalysis/>} />
+          <Route path="/npv" element={<NPV/>} />
+          <Route path="/payback" element={<Payback/>} />
+          <Route path="/irr" element={<IRR/>} />
+          <Route path="/bepanalysis" element={<BEPAnalysis/>} />
+          <Route path="/borrowing_costs" element={<BorrowingCosts/>} />
+          <Route path="/fixed_assets_schedule" element={<FixedassetsSchedule/>} />
+          <Route path="/computation_of_taxes" element={<ComputationofTaxes/>} />
+          <Route path="/performance_ratios" element={<PerformanceRatios/>} />
+          <Route path="/efficiency_ratios" element={<EfficiencyRatios/>} />
+          <Route path="/capital_strucuture_ratios" element={<CapitalStrucutureRatios/>} />
+          <Route path="/loans_and_security_cover" element={<LoansandSecurityCover/>} />
+          <Route path="/cma_form1" element={<CMA_Form1/>} />
+          <Route path="/cma_form2" element={<CMA_Form2/>} />
+          <Route path="/cma_form3" element={<CMA_Form3/>} />
+          <Route path="/cma_form4" element={<CMA_Form4/>} />
+          <Route path="/cma_form5" element={<CMA_Form5/>} />
+          <Route path="/cma_form6" element={<CMA_Form6/>} />
+          <Route path="/performance_indicators" element={<PerformanceIndicators/>} />
+          <Route path="/intermin_financials" element={<InterminFinancials/>} />
+          <Route path="/movementofTNW" element={<MovementofTNW/>} />
+          <Route path="/efficiency_ratios" element={<EfficiencyRatios/>} />
+          <Route path="/synopsis_of_balance_sheet" element={<SynopsisofBalanceSheet/>} />
+          <Route path="/moemnet_of_long_term_funds" element={<MoemnetofLongtermFunds/>} />
+          <Route path="/cash_flow" element={<Cashflow/>} />
+          <Route path="/inventory_and_receivables_levels" element={<InventoryandreceivablesLevels/>} />
+          <Route path="/assessed_bank_finance" element={<AssessedBankFinance/>} />
+
+          <Route path="/term_loan" element={<TermLoans/>} />
+
+        <Route path="/assessment_of_cc" element={<Assessmentof_CC/>}/>
+
+        <Route path="/assessment_of_Overdraft_limits" element={<AssessmentOfOverdraftLimits/>}/>
+
+        <Route path="/epc_fbd_limits" element={<EpcFbdLimits/>}/>
+
+        <Route path="/assessment_of_lc_limits" element={<AssessmentOfLcLimits/>}/>
+
+        <Route path="/assessment_of_bg_limits" element={<AssessmentOfBgLimits/>}/>
+
+        <Route path="/assessment_of_bg_limits_for_epc_contractors" element={<AssessmentofBgLimitsForEpcContractors/>}/>
 
 
 
 
-// <Route path="/program" element={<Program/>}/>
+        <Route path="/program" element={<Program/>}/>
 
-// <Route path="/team_and_permissions" element={<TeamAndPermissions/>}/>
+        <Route path="/team_and_permissions" element={<TeamAndPermissions/>}/>
 
-// <Route path="/calenderinsing" element={<Calenderinsing/>}/>
+        <Route path="/calenderinsing" element={<Calenderinsing/>}/>
 
-// <Route path="/sign_off" element={<SignOff/>}/>
+        <Route path="/sign_off" element={<SignOff/>}/>
 
-// <Route path="/review" element={<Review/>}/>
-
-
+        <Route path="/review" element={<Review/>}/>
 
 
-// <Route path="/entity_locations" element={<EntityLocations/>}/>
 
-// <Route path="/entity_businsses" element={<EntityBusinsses/>}/>
 
-// <Route path="/products" element={<Products/>}/>
+        <Route path="/entity_locations" element={<EntityLocations/>}/>
 
-// <Route path="/co_efficients" element={<CoEfficients/>}/>
+        <Route path="/entity_businsses" element={<EntityBusinsses/>}/>
 
-// <Route path="/factors" element={<Factors/>}/>
+        <Route path="/products" element={<Products/>}/>
 
-// <Route path="/business_fss" element={<BusinessFss/>}/>
+        <Route path="/co_efficients" element={<CoEfficients/>}/>
 
-// <Route path="/product_mixture" element={<ProductMixture/>}/>
+        <Route path="/factors" element={<Factors/>}/>
 
-// <Route path="/yield" element={<Yield/>}/>
+        <Route path="/business_fss" element={<BusinessFss/>}/>
 
-// <Route path="/transactional_arragments" element={<TransactionalArragments/>}/>
-// <Route path="/Capacity_and_utilisation" element={<CapacityAndUtilisation/>}/>
-// <Route path="/personal_profile" element={<PersonalProfile/>}/>
-// <Route path="/education_background" element={<EducationBackground/>}/>
-// <Route path="/work_experience" element={<WorkExperience/>}/>
-// <Route path="/credit_score" element={<CreditScore/>}/>
-// <Route path="/present_networth" element={<PresentNetworth/>}/>
-// <Route path="/income_and_tax_history" element={<IncomeAndTaxHistory/>}/>
-// <Route path="/due_deligence_and_deliquency" element={<DueDeligenceAndDeliquency/>}/>
-// <Route path="/present_positions" element={<PresentPositions/>}/>  
-// <Route path="/primary_security" element={<PrimarySecurity/>}/>
-// <Route path="/collateralsecurity" element={<CollateralSecurity/>}/>
-// <Route path="/guarantee" element={<Garuantees/>}/>
-// <Route path="/security_coverage" element={<SecurityCoverage/>}/>
-// <Route path="/asset_valuation" element={<AssetValuation/>}/>
-// <Route path="/legal_verificaiton_of_title" element={<LegalVerificaitonofTitle/>}/>
-// <Route path="/asset_profile" element={<AssetProfile/>}/>
-// <Route path="/insurance" element={<Insurance/>}/>
+        <Route path="/product_mixture" element={<ProductMixture/>}/>
+
+        <Route path="/yield" element={<Yield/>}/>
+
+<Route path="/transactional_arragments" element={<TransactionalArragments/>}/>
+<Route path="/Capacity_and_utilisation" element={<CapacityAndUtilisation/>}/>
+<Route path="/personal_profile" element={<PersonalProfile/>}/>
+<Route path="/education_background" element={<EducationBackground/>}/>
+<Route path="/work_experience" element={<WorkExperience/>}/>
+<Route path="/credit_score" element={<CreditScore/>}/>
+<Route path="/present_networth" element={<PresentNetworth/>}/>
+<Route path="/income_and_tax_history" element={<IncomeAndTaxHistory/>}/>
+<Route path="/due_deligence_and_deliquency" element={<DueDeligenceAndDeliquency/>}/>
+<Route path="/present_positions" element={<PresentPositions/>}/>  
+<Route path="/primary_security" element={<PrimarySecurity/>}/>
+<Route path="/collateralsecurity" element={<CollateralSecurity/>}/>
+<Route path="/guarantee" element={<Garuantees/>}/>
+<Route path="/security_coverage" element={<SecurityCoverage/>}/>
+<Route path="/asset_valuation" element={<AssetValuation/>}/>
+<Route path="/legal_verificaiton_of_title" element={<LegalVerificaitonofTitle/>}/>
+<Route path="/asset_profile" element={<AssetProfile/>}/>
+<Route path="/insurance" element={<Insurance/>}/>
+
+<Route path="/cash_credit" element={<CashCredit/>} />
+<Route path="/bills_facility" element={<BillsFacility/>} />
+<Route path="/letters_of_credit" element={<LettersOfCredit/>} />
+<Route path="/bank_gaurantee" element={<BankGaurantee/>} />
+<Route path="/level_of_utilisation" element={<LevelOfUtilisation/>} />
+<Route path="/term_loan_facility" element={<TermLoan_facility/>} />
+
+
+<Route path="/drawdown" element={<Drawdown/>} />
+
+          <Route path="/repayment" element={<Repayment/>} />
+
+          <Route path="/margin_monies" element={<Margin/>} />
+
+          <Route path="/terms_condition" element={<OtherTermsandConditions/>} />
+
+          <Route path="/interst_charge" element={<InterstandCharges/>} />
+
+          <Route path="/security" element={<Security/>} />
+
+          <Route path="/users" element={<Users/>} />
+
+          <Route path="/external_users" element={<ExternalUsers/>} />
+
+          <Route path="/business_entities" element={<BusinessEntities/>} />
+
+          <Route path="/persons" element={<Persons/>} />
+
+          <Route path="/assets" element={<Assets/>} />
+
+          <Route path="/loans" element={<Loans/>} />
+
+          <Route path="/user_permissions" element={<Userpermissions/>} />
+
+          <Route path="/risk_types" element={<Risk_types/>} />
+
+          <Route path="/terms_condition_types" element={<TermsConditionsTypes/>} />
+
+          <Route path="/banks" element={<Banks/>} />
+
+          <Route path="/rating_systems" element={<RatingSystems/>} />
+
+          <Route path="/agencies" element={<Agencies/>} />
+
+          <Route path="/subsidies" element={<Subsidies/>} />
+
+          <Route path="/loan_Products" element={<LoanProducts/>} />
+
+          <Route path="/model_swot" element={<ModelSwot/>} />
+
+          <Route path="/model_pestel" element={<Model_PesteL/>} />
+
+          <Route path="/model_vmg" element={<Model_VMG/>} />
+
+          <Route path="/model_eic" element={<Model_EIC/>} />
+
+          <Route path="/checklists" element={<Checklists/>} />
+
+          <Route path="/decisions" element={<Decisions/>} />
+
+          <Route path="/model_drafts" element={<Model_drafts/>} />
+
+          <Route path="/reports" element={<Reports/>} />
+
+          <Route path="/annexures_forms" element={<AnnexuresForms/>} />
+
+          <Route path="/timeLines" element={<TimeLines/>} />
+
+          <Route path="/plan_templates" element={<Plan_templates/>} />
+
+          <Route path="/units_measurements" element={<UnitsMeasurements/>} />
+
+          <Route path="/transactional_arragement_types" element={<TransactionalArragementTypes/>} />
               
-//          {/* Protected Routes */}
-//         <Route element={<RequireAuth />}>
-//           {/* <Route path="/dashboard" element={<Dashboard />} /> */}
-//           <Route path="/sidebars" element={<Sidebars/>} />
+
+          <Route path="/land" element={<Land/>} />
+
+          <Route path="/buildings" element={<Buildings/>} />
+
+          <Route path="/plant_machinery" element={<PlantandMachinery/>} />
+
+          <Route path="/vehicles" element={<Vehicles/>} />
+
+          <Route path="/software_technical_knowhow" element={<SoftwareandTechnicalKnowhow/>} />
+
+          <Route path="/deposits" element={<Deposits/>} />
+
+          <Route path="/preliminary_preincorporation_expenses" element={<Preliminaryandpreincorporationexpenses/>} />
+
+          <Route path="/interest_during_construction" element={<Interestduringconstruction/>} />
+
+          <Route path="/contingencies" element={<Contingencies/>} />
+
+          <Route path="/margin_monies1" element={<Marginmonies1/>} />
+
+          <Route path="/debt_funds" element={<Debtfunds/>} />
+
+          <Route path="/term_loans" element={<Termloans/>} />
+
+          <Route path="/working_capital" element={<WorkingCapital/>} />
+
+          <Route path="/production_process" element={<Productionprocess/>} />
+
+          <Route path="/technology_Knowhow" element={<TechnologyandKnowhow/>} />
+
+          <Route path="/Proposal_in_brief" element={<Proposalinbrief/>} />          
+
+          <Route path="/utilities" element={<Utilities/>} />          
+
+          <Route path="/operating_strategies" element={<OperatingStrategies/>} />          
+
+          <Route path="/schedule_of_implementation" element={<ScheduleofImplementation/>} />          
+
+          <Route path="/licenses_and_approvals" element={<LicensesandApprovals/>} />
+
+          <Route path="/swot" element={<Swot/>} />          
+
+          <Route path="/vmg" element={<VMG/>} />          
+
+          <Route path="/pestel" element={<PESTEL/>} />          
+
+          <Route path="/eic" element={<EIC/>} />          
+
+          <Route path="/evc" element={<EVC/>} />          
+
+          <Route path="/risk_mitigant_analysis" element={<RiskMitigantAnalysis/>} />          
+
+          <Route path="/pollution_effluent_treatment" element={<PollutioneffluentTreatment/>} />          
+
+          <Route path="/seg_analysis" element={<SEGAnalysis/>} />          
+
+          <Route path="/demand_gap_analysis" element={<DemandGapAnalysis/>} />          
+
+          <Route path="/consultants_service_providers" element={<Consultantsserviceproviders/>} />          
+
+          <Route path="/competetion_market_landscapte" element={<CompetetionMarketLandscapte/>} />          
+
+          <Route path="/StatutoryduesLitigations" element={<StatutoryduesLitigations/>} />          
+
+          <Route path="/contractural_dues_litigations" element={<ContracturalduesLitigations/>} />          
+
+          <Route path="/legal_audit" element={<LegalAudit/>} />          
+
+          <Route path="/documentation_audit" element={<DocumentationAudit/>} />          
+
+          <Route path="/revenue_lekages" element={<RevenueLekages/>} />          
+
+          <Route path="/risk_assessment_mitigations" element={<RiskassessmentMitigations/>} />          
+
+          <Route path="/pricing_concessions" element={<Pricingconcessions/>} />          
+
+          <Route path="/future_business_potential" element={<FutureBusinesspotential/>} />          
+
+          <Route path="/capital_charge" element={<Capitalcharge/>} />          
+
+          <Route path="/earning_rocc" element={<EarnignROCC/>} />          
+
+          <Route path="/credit_audit_report" element={<CreditAuditreport/>} />          
+
+          <Route path="/submission_of_stock_statements_reports" element={<SubmissionStockStatementsreports/>} />          
+
+          <Route path="/charge_creation" element={<Chargecreation/>} />          
+
+          <Route path="/calender_of_events" element={<CalenderofEvents/>} />  
+
+          <Route path="/due_deligence" element={<DueDeligence/>} />          
+
+          <Route path="/credit_rating" element={<CreditRating/>} />
+
+
+
+         {/* Protected Routes */}
+        <Route element={<RequireAuth />}>
+          {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+          <Route path="/sidebars" element={<Sidebars/>} />
           
           
           
