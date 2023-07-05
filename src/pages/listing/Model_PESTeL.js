@@ -12,7 +12,7 @@ import Badge from "react-bootstrap/Badge";
 
 
 
-const Model_PesteL = () => {
+const Model_PESTeL = () => {
   
 
 
@@ -56,4 +56,4 @@ const Model_PesteL = () => {
   );
 };
 
-export default Model_PesteL;
+export default Model_PESTeL;

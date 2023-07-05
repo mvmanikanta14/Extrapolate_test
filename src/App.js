@@ -188,7 +188,7 @@ import Agencies from "./pages/listing/Agencies";
 
 import LoanProducts from "./pages/listing/LoanProducts";
 import ModelSwot from "./pages/listing/ModelSwot";
-import Model_PesteL from "./pages/listing/Model_PesteL";
+import Model_PesteL from "./pages/listing/Model_pesteL";
 import Model_drafts from "./pages/listing/Model_drafts";
 import AnnexuresForms from "./pages/listing/AnnexuresForms";
 import TimeLines from "./pages/listing/TimeLines";
@@ -288,12 +288,12 @@ import SubmissionStockStatementsreports from "./pages/listing/SubmissionStockSta
 
 import Chargecreation from "./pages/listing/Chargecreation";
 
-
 import CalenderofEvents from "./pages/listing/CalenderofEvents";
 
 import DueDeligence from "./pages/listing/DueDeligence";
 
 import CreditRating from "./pages/listing/CreditRating";
+import Model_PESTeL from "./pages/listing/Model_pesteL";
 
 
 function App(props) {
@@ -524,7 +524,7 @@ function App(props) {
 
           <Route path="/model_swot" element={<ModelSwot/>} />
 
-          <Route path="/model_pestel" element={<Model_PesteL/>} />
+          <Route path="/model_pestel" element={<Model_PESTeL/>} />
 
           <Route path="/model_vmg" element={<Model_VMG/>} />
 
@@ -611,7 +611,7 @@ function App(props) {
 
           <Route path="/competetion_market_landscapte" element={<CompetetionMarketLandscapte/>} />          
 
-          <Route path="/StatutoryduesLitigations" element={<StatutoryduesLitigations/>} />          
+          <Route path="/Statutory_dues_litigations" element={<StatutoryduesLitigations/>} />          
 
           <Route path="/contractural_dues_litigations" element={<ContracturalduesLitigations/>} />          
 
