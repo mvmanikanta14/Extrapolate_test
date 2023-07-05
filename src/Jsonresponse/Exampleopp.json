@@ -1,0 +1,44 @@
+{
+  "Exampleopp": [
+    {
+      "id": 1,
+      "Name": "Sidda",
+      "Password": "Sidda@gmail.com"
+    },
+    {
+      "id": 2,
+      "Name": "sai",
+      "Password": "sai@gmail.com"
+    },
+    {
+      "id": 3,
+      "Name": "Likith",
+      "Password": "nlikithkumar@gmail.com "
+    },
+    {
+      "id": 4,
+      "Name": "mani",
+      "Password": "mani@gmail.com"
+    },
+    {
+      "id": 5,
+      "Name": "likith",
+      "Password": "njjh@gmail.com"
+    },
+    {
+      "id": 6,
+      "Name": "tharun",
+      "Password": "12345"
+    },
+    {
+      "id": 7,
+      "Name": "man",
+      "Password": "23424"
+    },
+    {
+      "id": 8,
+      "Name": "Ramya ",
+      "Password": "123456"
+    }
+  ]
+}

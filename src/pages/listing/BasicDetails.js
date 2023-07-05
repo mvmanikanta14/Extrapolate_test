@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 
 import Card from "react-bootstrap/Card";
+
 import {
   BsChevronDown,
   BsBriefcase,
@@ -9,19 +10,30 @@ import {
 } from "react-icons/bs";
 import Badge from "react-bootstrap/Badge";
 
+
+
+
 import Popup from 'reactjs-popup';
+
 import { useModal } from 'react-hooks-use-modal';
-import { useEffect} from 'react';
-import axios from 'axios';
+
+
 import GetData from "../../GetData";
+import axios from 'axios';
+
+
+
 
 
 
 const BasicDetails = () => {
 
   const [Modal, open, close, isOpen] = useModal('root', {
+
     preventScroll: true,
+
     closeOnOverlayClick: false
+
   });
   const [data, setdata] = useState([])
   useEffect(() => {
@@ -81,6 +93,7 @@ const BasicDetails = () => {
                       <button className='cardbutton'  >submit</button>
                     </form>
                   </Card.Body>
+
                 </Card>
               </Modal>
             </div>
@@ -111,7 +124,7 @@ const BasicDetails = () => {
                 </div>
                 <br/>
                   
-                  <div className="ml-5">
+                  {/* <div className="ml-5">
 
                   {data.map((data) => {
                                 return (
@@ -120,7 +133,7 @@ const BasicDetails = () => {
                                       <p className="text-danger">Edit & Delete</p>
                                       </div>
                                 )})}
-                  </div>
+                  </div> */}
               </Card.Body>
             </Card>
           </div>
@@ -134,6 +147,10 @@ const BasicDetails = () => {
 
     </section>
   );
+
 };
+
+
+
 
 export default BasicDetails;

@@ -9,10 +9,10 @@ import {
     BsChevronUp,
   } from "react-icons/bs";
 import Badge from "react-bootstrap/Badge";
- 
 
 
-const TermLoans = () => {
+
+const Termloans_new = () => {
   
 
 
@@ -36,7 +36,7 @@ const TermLoans = () => {
                   </div>
                   <div className="card-details">
                     <Card.Title className="text-truncate">
-                    Term Loans 
+                    Termloans
                     </Card.Title>
                     <p className="cards-count">
                     
@@ -46,7 +46,7 @@ const TermLoans = () => {
                        
                       </Badge>{" "}
                     </p>
-                    <span>Coming Soon</span>
+                    <span> coming Soon  </span>
                   </div>
                 </Card.Body>
               </Card>
@@ -56,4 +56,4 @@ const TermLoans = () => {
   );
 };
 
-export default TermLoans;
+export default Termloans_new;

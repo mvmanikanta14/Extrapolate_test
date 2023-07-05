@@ -84,7 +84,6 @@ import MoemnetofLongtermFunds from "./pages/listing/MoemnetofLongtermFunds";
 import Cashflow from "./pages/listing/Cashflow";
 import InventoryandreceivablesLevels from "./pages/listing/InventoryandreceivablesLevels";
 import AssessedBankFinance from "./pages/listing/AssessedBankFinance";
-import TermLoans from "./pages/listing/Termloans";
 
 import Assessmentof_CC from "./pages/listing/Assessmentof_CC";
 
@@ -222,7 +221,7 @@ import Debtfunds from "./pages/listing/Debtfunds";
 
 import Marginmonies1 from "./pages/listing/Marginmonies1";
 
-import Termloans from "./pages/listing/Termloans";
+ import Termloans_new from "./pages/listing/Termloans_new";
 
 import WorkingCapital from "./pages/listing/WorkingCapital";
 
@@ -409,7 +408,7 @@ function Routespath(props) {
           <Route path="/inventory_and_receivables_levels" element={<InventoryandreceivablesLevels/>} />
           <Route path="/assessed_bank_finance" element={<AssessedBankFinance/>} />
 
-          <Route path="/term_loan" element={<TermLoans/>} />
+          {/* <Route path="/term_loan" element={<Termloans/>} /> */}
 
         <Route path="/assessment_of_cc" element={<Assessmentof_CC/>}/>
 
@@ -571,7 +570,7 @@ function Routespath(props) {
 
           <Route path="/debt_funds" element={<Debtfunds/>} />
 
-          <Route path="/term_loans" element={<Termloans/>} />
+          <Route path="/term_loan" element={<Termloans_new/>} />
 
           <Route path="/working_capital" element={<WorkingCapital/>} />
 
@@ -611,7 +610,7 @@ function Routespath(props) {
 
           <Route path="/competetion_market_landscapte" element={<CompetetionMarketLandscapte/>} />          
 
-          <Route path="/StatutoryduesLitigations" element={<StatutoryduesLitigations/>} />          
+          <Route path="/Statutory_dues_litigations" element={<StatutoryduesLitigations/>} />          
 
           <Route path="/contractural_dues_litigations" element={<ContracturalduesLitigations/>} />          
 
