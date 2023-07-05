@@ -12,7 +12,7 @@ import Badge from "react-bootstrap/Badge";
  
 
 
-const TermLoans = () => {
+const Termloans = () => {
   
 
 
@@ -56,4 +56,4 @@ const TermLoans = () => {
   );
 };
 
-export default TermLoans;
+export default Termloans;
