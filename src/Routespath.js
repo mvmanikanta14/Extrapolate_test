@@ -570,7 +570,7 @@ function Routespath(props) {
 
           <Route path="/debt_funds" element={<Debtfunds/>} />
 
-          <Route path="/term_loans" element={<Termloans_new/>} />
+          <Route path="/term_loan" element={<Termloans_new/>} />
 
           <Route path="/working_capital" element={<WorkingCapital/>} />
 
