@@ -32,22 +32,11 @@ function App(props) {
       <Route path="/app" element={<Appp />} />
       <Route path="/dashboard" element={<Dashboard />} />
 
-     
-
-
-
          {/* Protected Routes */}
         <Route element={<RequireAuth />}>
           {/* <Route path="/dashboard" element={<Dashboard />} /> */}
           <Route path="/sidebars" element={<Sidebars/>} />
-          
-          
-          
-          
-
-
-
-
+    
       </Route>
     </Routes>
     </>
