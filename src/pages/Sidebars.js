@@ -1,21 +1,37 @@
-import React from "react";
+import React,{useState} from "react";
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import Navbar from "../pages/Navbar";
 import { Link } from 'react-router-dom';
 import Clients from "./listing/BasicDetails";
+import { FaHamburger } from "react-icons/fa";
+
+
+  
+
+ 
 
 
 
 const Sidebars =()=>{
+ 
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
-
-    return(
-       
+    return(   
         
 
-      <Sidebar >
-            <Menu>
+      
+        <div className="sidebar">
+      <div className="toggle-button" onClick={toggleSidebar}>
+        <FaHamburger />
+      </div>
+      {isSidebarOpen && (
+        <div className="sidebar-content">
+          <Sidebar >
+          <Menu>
               <SubMenu label="About the Entity">
                 <MenuItem component={<Link to="/basic_details" />}> Basic Details </MenuItem>
                 <MenuItem component={<Link to="/share_holding_pattern" />}>Share Holding Pattern</MenuItem>
@@ -314,6 +330,7 @@ const Sidebars =()=>{
               <MenuItem component={<Link to="/production_process" />}>  Production process    </MenuItem>
 
               <MenuItem component={<Link to="/technology_Knowhow" />}>  Technology and Know how  </MenuItem>
+              </SubMenu>
 
               <Menu> <MenuItem component={<Link to="/operating_strategies" />}>Operating Strategies</MenuItem></Menu>
 
@@ -374,13 +391,17 @@ const Sidebars =()=>{
               <Menu> <MenuItem component={<Link to="/due_deligence" />}>Due Deligence</MenuItem></Menu>
 
               <Menu> <MenuItem component={<Link to="/credit_rating" />}>Credit Rating</MenuItem></Menu>
-              </SubMenu>
+              
               </Menu>
 
 
             
      
         </Sidebar>
+        </div>
+      )}
+    </div>
+            
         
        
     )
