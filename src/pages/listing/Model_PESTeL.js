@@ -14,16 +14,12 @@ import { useModal } from 'react-hooks-use-modal';
 
 
 
-<<<<<<< HEAD
-const Model_PESTeL = () => {
-=======
 const Model_PesteL = () => {
  
   const [Modal, open, close, isOpen] = useModal('root', {
     preventScroll: true,
     closeOnOverlayClick: false
   });
->>>>>>> f2bba94bd7455878c15fd13781eb73a8cdd8da8d
   
 
   
@@ -96,4 +92,4 @@ const Model_PesteL = () => {
   );
 };
 
-export default Model_PESTeL;
+export default Model_PesteL;
