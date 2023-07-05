@@ -91,7 +91,7 @@ const BasicDetails = () => {
         console.log('Data inserted successfully...');
 
         setId('');
-
+        setName('');
         setPassword('');
 
       })
